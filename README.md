@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# ⚔️ Epic Life Forge
 
-## Project info
+[![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+> **Gamify your life, forge your future. Turn your daily tasks into legendary quests.**
 
-## How can I edit this code?
+Epic Life Forge is a gamified productivity application designed to help you track your goals, build habits, and level up your life through an immersive gaming experience.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **🏆 Legendary Quests**: Transform your to-do list into a series of epic challenges. Earn XP and rewards for every task completed.
+- **🌳 Skill Tree**: Visualize your growth. Level up specific attributes like Strength, Intelligence, and Charisma as you complete real-world actions.
+- **🏪 The Market**: Spend your hard-earned gold on custom rewards or virtual items to enhance your journey.
+- **📊 Hero Stats**: Track your progress with detailed analytics and see how your "character" evolves over time.
+- **🎮 Immersive Dashboard**: A central hub to manage your daily life with a beautiful, game-inspired interface.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- **Framework**: [React](https://reactjs.org/) with [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [Shadcn UI](https://ui.shadcn.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **State Management**: Context API + [TanStack Query](https://tanstack.com/query/latest)
+- **Routing**: React Router DOM
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- [Node.js](https://nodejs.org/) (v18.0.0 or higher)
+- [npm](https://www.npmjs.com/) or [bun](https://bun.sh/)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Herazur/epic-life-forge.git
+   cd epic-life-forge
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   bun install
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   bun dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:8080` (or the port specified in your terminal).
+
+## 🗺️ Project Structure
+
+```text
+src/
+├── components/     # Reusable UI components (Shadcn + Custom)
+├── contexts/       # Game state and logic providers
+├── hooks/          # Custom React hooks
+├── pages/          # Individual screen implementations
+├── lib/            # Utility functions and configurations
+└── types/          # TypeScript interface definitions
 ```
 
-**Edit a file directly in GitHub**
+## 🤝 Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have ideas to make **Epic Life Forge** even more epic.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+<p align="center">Made with ❤️ for the dreamers and the doers.</p>
